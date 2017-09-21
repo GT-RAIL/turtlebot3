@@ -1,6 +1,9 @@
 <img src="https://raw.githubusercontent.com/ROBOTIS-GIT/ROBOTIS-Documents/master/wiki-images/Turtlebot3/Turtlebot3_logo.jpg" width="300">
 
-# Turtlebot3
+# Changes in This Fork
+This is a fork of the core turtlebot3 package with additions for the CS7785 Intro to Robotics Research course at Georgia Tech.  The main changes include adding a coordinate frame for the raspicam, adding a simulated camera in gazebo, and a launch file for running everything in simulation.
+
+# Turtlebo3
 
 TurtleBot3 is a new generation mobile robot that is modular, compact and customizable. Let’s explore ROS and create exciting applications for education, research and product development.
 
