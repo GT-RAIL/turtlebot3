@@ -162,4 +162,20 @@
     </inertial>
   </link>
 
+  <joint name="raspicam_joint" type="fixed">
+    <parent link="base_link" />
+    <child link="raspicam_link" />
+    <origin xyz="0.04 0 0.115" rpy="0 0 0" />
+  </joint>
+ 
+  <link name="raspicam_link">
+    <visual>
+      <origin xyz="0 0 0.005" rpy="0 0 0" />
+      <geometry>
+        <box size="0.003 0.03 0.025" />
+      </geometry>
+      <material name="dark" />
+    </visual>
+  </link>
+
 </robot>
